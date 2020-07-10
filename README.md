@@ -13,7 +13,8 @@ quality. The technics applied: TDD, Unit Testing (JUnit)
 * Markdown file: this file itself
 
 ## Connect me via:
-1. [GitHub] (https://gist.github.com/KelvinHao)
-2. [Facebook] (https://www.facebook.com/profile.php?id=100011331665845)
+1. [GitHub](https://gist.github.com/KelvinHao)
+2. [Facebook](https://www.facebook.com/profile.php?id=100011331665845)
+3. [Email](nnhao9a3@gmail.com)
 
-#### © 2020 by NNHao
+#### © 2020 by NNHao | FPT University, HCMC Campus
