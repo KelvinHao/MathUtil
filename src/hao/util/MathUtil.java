@@ -18,13 +18,14 @@ public class MathUtil {
     // 15! to lắm rồi, tính tối đa 15!
     public static long computeFactorial(int n) {
         //nếu người dùng đưa cả số âm vào tao sẽ ném ra ngoại lệ
-        if(n<0 || n>15){
+        if (n < 0 || n > 15) {
             throw new IllegalArgumentException("Invalid argument!!! n must be >=0 & n <=15");
         }
-        long result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *= i;
+        if (n == 0 || n == 1) {
+            return 1;
         }
-        return result;
+        // đứa nào sài else ở chỗ nầy trừ điểm
+        return n * computeFactorial(n - 1);
+        // đệ qui nè, n!= n*(n-1)!
     }
 }
